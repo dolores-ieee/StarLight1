@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2021 xuexiangjys(xuexiangjys@163.com)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_user_name1"
+                    style="@style/TextStyle.Explain"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginStart="4dp"
+                    android:text="🌟🌟🌟"
+                    android:textColor="@color/xui_config_color_pure_black" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_image1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/xui_ic_default_img" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title1"
+                    style="@style/TextStyle.Content"
+                    android:ellipsize="end"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="何丽"
+                    android:textColor="@color/xui_config_color_pure_black" />
+
+                <TextView
+                    android:id="@+id/tv_c1"
+                    style="@style/TextStyle.Explain"
+                    android:layout_marginTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="国家二级心理咨询师"
+                    android:textColor="?attr/xui_config_color_content_text" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="预约"
+                android:background="@color/app_color_theme_5"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_help1"
+            style="@style/TextStyle.Explain"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:layout_marginStart="110dp"
+            android:text="情绪管理  恋爱心理"
+            android:textColor="?attr/xui_config_color_content_text" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/tv_num1"
+                style="@style/TextStyle.Explain"
+                android:layout_gravity="center_vertical|end"
+                android:text="已帮助36人" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_user_name2"
+                style="@style/TextStyle.Explain"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginStart="4dp"
+                android:text="🌟🌟🌟🌟"
+                android:textColor="@color/xui_config_color_pure_black" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xui_ic_default_img" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title2"
+                style="@style/TextStyle.Content"
+                android:layout_width="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="李花"
+                android:textColor="@color/xui_config_color_pure_black" />
+
+            <TextView
+                android:id="@+id/tv_c2"
+                style="@style/TextStyle.Explain"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="国家二级心理咨询师"
+                android:textColor="?attr/xui_config_color_content_text" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="预约"
+            android:background="@color/app_color_theme_5"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_help2"
+        style="@style/TextStyle.Explain"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:layout_marginStart="110dp"
+        android:text="婚姻家庭  恋爱心理"
+        android:textColor="?attr/xui_config_color_content_text" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_num2"
+            style="@style/TextStyle.Explain"
+            android:layout_gravity="center_vertical|end"
+            android:text="已帮助56人" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_user_name3"
+                style="@style/TextStyle.Explain"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginStart="4dp"
+                android:text="🌟🌟🌟🌟"
+                android:textColor="@color/xui_config_color_pure_black" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xui_ic_default_img" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title3"
+                style="@style/TextStyle.Content"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="王傅"
+                android:textColor="@color/xui_config_color_pure_black" />
+
+            <TextView
+                android:id="@+id/tv_c3"
+                style="@style/TextStyle.Explain"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="国家二级心理咨询师"
+                android:textColor="?attr/xui_config_color_content_text" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="预约"
+            android:background="@color/app_color_theme_5"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_help3"
+        style="@style/TextStyle.Explain"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:layout_marginStart="110dp"
+        android:text="情绪管理"
+        android:textColor="?attr/xui_config_color_content_text" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_help3"
+            style="@style/TextStyle.Explain"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|end"
+            android:text="已帮助5人" />
+
+    </FrameLayout><FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_user_name4"
+            style="@style/TextStyle.Explain"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="4dp"
+            android:text="🌟🌟🌟🌟🌟"
+            android:textColor="@color/xui_config_color_pure_black" />
+    </LinearLayout>
+
+</FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xui_ic_default_img" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title4"
+                style="@style/TextStyle.Content"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="刘雨"
+                android:textColor="@color/xui_config_color_pure_black" />
+
+            <TextView
+                android:id="@+id/tv_c4"
+                style="@style/TextStyle.Explain"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="国家二级心理咨询师"
+                android:textColor="?attr/xui_config_color_content_text" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="预约"
+            android:background="@color/app_color_theme_5"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_help4"
+        style="@style/TextStyle.Explain"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:layout_marginStart="110dp"
+        android:text="情绪管理 焦虑心理"
+        android:textColor="?attr/xui_config_color_content_text" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_hel4"
+            style="@style/TextStyle.Explain"
+            android:layout_gravity="center_vertical|end"
+            android:text="已帮助150人" />
+
+    </FrameLayout><FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_user_name5"
+            style="@style/TextStyle.Explain"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="4dp"
+            android:text="🌟🌟🌟🌟"
+            android:textColor="@color/xui_config_color_pure_black" />
+    </LinearLayout>
+
+</FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xui_ic_default_img" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title5"
+                style="@style/TextStyle.Content"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="陈文"
+                android:textColor="@color/xui_config_color_pure_black" />
+
+            <TextView
+                android:id="@+id/tv_c5"
+                style="@style/TextStyle.Explain"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="国家二级心理咨询师"
+                android:textColor="?attr/xui_config_color_content_text" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="预约"
+            android:background="@color/app_color_theme_5"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_help5"
+        style="@style/TextStyle.Explain"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:layout_marginStart="110dp"
+        android:text="情绪管理  恋爱心理"
+        android:textColor="?attr/xui_config_color_content_text" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_help6"
+            style="@style/TextStyle.Explain"
+            android:layout_gravity="center_vertical|end"
+            android:text="已帮助66人" />
+
+    </FrameLayout><FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_user_name6"
+            style="@style/TextStyle.Explain"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="4dp"
+            android:text="🌟🌟🌟🌟"
+            android:textColor="@color/xui_config_color_pure_black" />
+    </LinearLayout>
+
+</FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xui_ic_default_img" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/TextStyle.Content"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="杨五"
+                android:textColor="@color/xui_config_color_pure_black" />
+
+            <TextView
+                android:id="@+id/tv_c6"
+                style="@style/TextStyle.Explain"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:text="国家二级心理咨询师"
+                android:textColor="?attr/xui_config_color_content_text" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="预约"
+            android:background="@color/app_color_theme_5"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_help7"
+        style="@style/TextStyle.Explain"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:layout_marginStart="110dp"
+        android:text="职业焦虑"
+        android:textColor="?attr/xui_config_color_content_text" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_read"
+            style="@style/TextStyle.Explain"
+            android:layout_gravity="center_vertical|end"
+            android:text="已帮助10人" />
+
+    </FrameLayout>
+</LinearLayout>
